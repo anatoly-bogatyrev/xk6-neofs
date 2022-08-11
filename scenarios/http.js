@@ -74,7 +74,7 @@ export function obj_write() {
         console.log(`${resp.status}`);
     }
     if (__ENV.SLEEP) {
-        sleep(__ENV.SLEEP);
+        sleep(__ENV.SLEEP_WRITE);
     }
 }
 
@@ -85,7 +85,7 @@ export function obj_read() {
         console.log(`${random_read_obj.object} - ${resp.status}`);
     }
     if (__ENV.SLEEP) {
-        sleep(__ENV.SLEEP);
+        sleep(__ENV.SLEEP_READ);
     }
 }
 

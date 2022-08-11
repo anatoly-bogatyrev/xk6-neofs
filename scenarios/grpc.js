@@ -77,7 +77,7 @@ export function obj_write() {
         console.log(resp.error);
     }
     if (__ENV.SLEEP) {
-        sleep(__ENV.SLEEP);
+        sleep(__ENV.SLEEP_WRITE);
     }
    
 }
@@ -89,7 +89,7 @@ export function obj_read() {
         console.log(resp.error);
     } 
     if (__ENV.SLEEP) {
-        sleep(__ENV.SLEEP);
+        sleep(__ENV.SLEEP_READ);
     }
 }
 

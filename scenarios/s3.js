@@ -86,7 +86,7 @@ export function obj_write() {
     } 
 
     if (__ENV.SLEEP) {
-        sleep(__ENV.SLEEP);
+        sleep(__ENV.SLEEP_WRITE);
     }
     
 }
@@ -100,7 +100,7 @@ export function obj_read() {
     } 
     
     if (__ENV.SLEEP) {
-        sleep(__ENV.SLEEP);
+        sleep(__ENV.SLEEP_READ);
     }
 
 }
